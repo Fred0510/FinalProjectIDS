@@ -11,6 +11,34 @@ package finalprojecttfis;
  */
 public class FinalProjectTFIS {
 
+	//FUNCION DE JUGADOR
+	String[] name;
+	int[] score;
+	String[] jugadores;
+	String[] gamePlayers;
+	public void Jugador(String[] n, int[] s,String [] j){
+		
+		name = n;
+		score = s;
+		jugadores = j;
+		
+	}
+	
+	//fUNCION PARTIDA QUE LLAMARA A JUGADOR
+
+	public void Partida(){
+	int[] set;
+	String currentPLayer;
+	String status;
+	String[] listData;
+	int[]playerSets;
+	int[]playerScore;
+	Jugador(jugadores, score , name);	
+  		
+	}
+	
+	
+	
     /**
      * @param args the command line arguments
      */
