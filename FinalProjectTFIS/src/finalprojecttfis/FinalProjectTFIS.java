@@ -34,7 +34,7 @@ class JUEGO{
 	int[]playerSets = null;
 	int[]playerScore = null;
 	Jugador(jugadores, score , name);
-	this.set = Integer.toString(set)
+	this.set = Integer.toString(set);
   		
 	 } 
 	 public String toString(){
