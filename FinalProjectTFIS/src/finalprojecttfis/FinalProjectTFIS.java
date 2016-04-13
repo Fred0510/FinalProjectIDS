@@ -9,11 +9,12 @@ package finalprojecttfis;
  *
  * @author Scm96Steven
  */
-public class FinalProjectTFIS {
 
+class JUEGO{
+	
 	//FUNCION DE JUGADOR
 	String[] name;
-	int[] score;
+	int[] score = {0,0,0};
 	String[] jugadores;
 	String[] gamePlayers;
 	public void Jugador(String[] n, int[] s,String [] j){
@@ -25,25 +26,44 @@ public class FinalProjectTFIS {
 	}
 	
 	//fUNCION PARTIDA QUE LLAMARA A JUGADOR
-
-	public void Partida(){
-	int[] set;
+	String set;
 	String currentPLayer;
+	public void Partida(){
 	String status;
 	String[] listData;
-	int[]playerSets;
-	int[]playerScore;
-	Jugador(jugadores, score , name);	
+	int[]playerSets = null;
+	int[]playerScore = null;
+	Jugador(jugadores, score , name);
+	this.set = Integer.toString(set)
   		
+	 } 
+	 public String toString(){
+			return currentPLayer;
+			
+		};
+	
+	}
+public class FinalProjectTFIS {
+
+	
+	public void iniciarPartida(){
+		
+		
 	}
 	
-	
-	
+	String[] listData(){
+		
+		return null;
+	}
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+           	
+    	
+    	
+    	
     }
     
 }
